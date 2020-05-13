@@ -3,7 +3,7 @@
   <project name="MakeshVineeth/android_device_yu_lettuce"  path="device/yu/lettuce" remote="github" revision="lineage-15.1"/>
   <project name="lettuce-oreo/proprietary_vendor_yu"  path="vendor/yu" remote="github" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_qcom_common"  path="device/qcom/common" remote="github" revision="lineage-15.1"/>
-  <project name="MakeshVineeth/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="lineage-15.1"/>
+  <project name="lettuce-oreo/android_kernel_cyanogen_msm8916/" path="kernel/cyanogen/msm8916" remote="github" revision="lineage-15.1"/>
 
   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
   <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
