@@ -46,6 +46,7 @@
 <remove-project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" />
 <remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" />
 <remove-project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
+<remove-project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" />
 
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
