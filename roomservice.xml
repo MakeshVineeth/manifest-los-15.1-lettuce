@@ -33,9 +33,6 @@
   <remove-project name="platform/hardware/intel/img/psb_video" />
 
 <remove-project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-<remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
-<remove-project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" />
-<remove-project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
 <remove-project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
 <remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
 <remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" />
