@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="MakeshVineeth/android_device_yu_lettuce"  path="device/yu/lettuce" remote="github" revision="lineage-15.1"/>
+  <project name="lettuce-oreo/proprietary_vendor_yu"  path="vendor/yu" remote="github" revision="lineage-15.1"/>
+  <project name="LineageOS/android_device_qcom_common"  path="device/qcom/common" remote="github" revision="lineage-15.1"/>
+  <project name="MakeshVineeth/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="lineage-15.1"/>
+
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+    <!-- arm64 depends on arm -->
+    <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+    <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+    <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+    <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="platform/hardware/intel/common/libmix" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/intel/common/libwsbm" />
+  <remove-project name="platform/hardware/intel/common/omx-components" />
+  <remove-project name="platform/hardware/intel/common/utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="platform/hardware/intel/img/hwcomposer" />
+  <remove-project name="platform/hardware/intel/img/psb_headers" />
+  <remove-project name="platform/hardware/intel/img/psb_video" />
+
+<remove-project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
+<remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
+<remove-project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" />
+<remove-project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
+<remove-project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
+<remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
+<remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" />
+<remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+<remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+<remove-project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" />
+<remove-project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" />
+<remove-project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" />
+<remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" />
+<remove-project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
+
+  <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+  <project path="packages/apps/F-DroidPrivilegedExtension"
+           name="privileged-extension.git" remote="fdroid"
+           revision="refs/tags/0.2.11" />
+
+</manifest>
