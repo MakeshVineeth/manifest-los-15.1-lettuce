@@ -18,6 +18,8 @@
     <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
     <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 
+  <project path="packages/apps/Lawnchair" name="LawnchairLauncher/Lawnchair" revision="alpha" remote="github" />
+
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -47,6 +49,7 @@
 <remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" />
 <remove-project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
 <remove-project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" />
+<remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
 
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
