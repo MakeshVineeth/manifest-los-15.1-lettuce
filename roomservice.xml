@@ -27,12 +27,14 @@
 <remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
 <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
 <remove-project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" />
+<remove-project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" />
 <remove-project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" />
 <remove-project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" />
 <remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" />
 <remove-project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
 <remove-project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" />
 <remove-project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" />
+<remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
 
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
