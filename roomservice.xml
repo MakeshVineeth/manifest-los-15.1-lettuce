@@ -33,7 +33,6 @@
 <remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" />
 <remove-project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
 <remove-project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" />
-<remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
 
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
