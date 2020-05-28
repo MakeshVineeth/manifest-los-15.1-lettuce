@@ -24,7 +24,6 @@
 <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
 <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
 <remove-project name="LineageOS/android_packages_apps_Exchange" />
-<remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
 <remove-project name="LineageOS/android_packages_apps_DeskClock" />
 <remove-project name="LineageOS/android_packages_apps_LockClock" />
 <remove-project name="LineageOS/android_packages_apps_Gallery2" />
@@ -37,6 +36,7 @@
 <remove-project name="LineageOS/android_packages_apps_Terminal" />
 <remove-project name="LineageOS/android_packages_apps_Tag" />
 <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
+<remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
 
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
