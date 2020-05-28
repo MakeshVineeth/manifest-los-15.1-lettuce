@@ -23,6 +23,7 @@
 <remove-project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
 <remove-project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
 <remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
+<remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
 <remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" />
 <remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
 <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
