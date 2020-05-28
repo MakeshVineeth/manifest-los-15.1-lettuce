@@ -20,21 +20,23 @@
 <remove-project name="platform/hardware/intel/img/psb_headers" />
 <remove-project name="platform/hardware/intel/img/psb_video" />
 
-<remove-project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-<remove-project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
-<remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
-<remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
-<remove-project path="packages/apps/Exchange2" name="LineageOS/android_packages_apps_Exchange" />
-<remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" />
-<remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
-<remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-<remove-project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" />
-<remove-project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" />
-<remove-project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" />
-<remove-project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" />
-<remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" />
-<remove-project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
-<remove-project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" />
+<remove-project name="LineageOS/android_packages_apps_Jelly" />
+<remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
+<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+<remove-project name="LineageOS/android_packages_apps_Exchange" />
+<remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
+<remove-project name="LineageOS/android_packages_apps_DeskClock" />
+<remove-project name="LineageOS/android_packages_apps_LockClock" />
+<remove-project name="LineageOS/android_packages_apps_Gallery2" />
+<remove-project name="LineageOS/android_packages_apps_Eleven" />
+<remove-project name="LineageOS/android_packages_apps_Updater" />
+<remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
+<remove-project name="LineageOS/android_packages_screensavers_Basic" />
+<remove-project name="LineageOS/android_packages_apps_Calendar" />
+<remove-project name="LineageOS/android_packages_apps_Nfc" />
+<remove-project name="LineageOS/android_packages_apps_Terminal" />
+<remove-project name="LineageOS/android_packages_apps_Tag" />
+<remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
 
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
