@@ -46,6 +46,9 @@
 <remove-project name="LineageOS/android_packages_providers_UserDictionaryProvider" />
 <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
 <remove-project name="LineageOS/android_packages_apps_Profiles" />
+<remove-project name="LineageOS/android_packages_apps_Profiles" />
+<remove-project name="LineageOS/android_packages_apps_Email" />
+<remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
 
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
