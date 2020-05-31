@@ -46,5 +46,6 @@
 <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
 <remove-project name="LineageOS/android_packages_apps_Email" />
 <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
+<remove-project name="LineageOS/android_packages_apps_Stk" />
 
 </manifest>
