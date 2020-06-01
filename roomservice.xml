@@ -53,6 +53,13 @@
 <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
 <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+<remove-project name="LineageOS/android_packages_apps_Messaging" />
+<remove-project name="LineageOS/android_packages_apps_Snap" />
+<remove-project name="LineageOS/android_external_chromium-webview" />
+<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+<remove-project name="LineageOS/android_packages_apps_Contacts" />
+<remove-project name="LineageOS/android_packages_apps_Dialer" />
 
 
 <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
