@@ -54,4 +54,11 @@
 <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
 <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
 
+
+<remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+<project path="packages/apps/F-DroidPrivilegedExtension"
+          name="privileged-extension.git" remote="fdroid"
+          revision="refs/tags/0.2.11" />
+
+
 </manifest>
