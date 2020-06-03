@@ -6,7 +6,7 @@
 <project name="LineageOS/android_device_qcom_common"  path="device/qcom/common" remote="github" revision="lineage-15.1"/>
 <project name="MakeshVineeth/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="lineage-15.1"/>
 <project name="MakeshVineeth/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1"/>
-
+<project path="vendor/lineage" name="MakeshVineeth/android_vendor_lineage" remote="github" revision="lineage-15.1" />
 
 <remove-project name="platform/hardware/intel/audio_media" />
 <remove-project name="platform/hardware/intel/bootstub" />
@@ -56,7 +56,6 @@
 <remove-project name="LineageOS/android_packages_apps_Messaging" />
 <remove-project name="LineageOS/android_packages_apps_Snap" />
 <remove-project name="LineageOS/android_external_chromium-webview" />
-<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Contacts" />
 <remove-project name="LineageOS/android_packages_apps_Dialer" />
