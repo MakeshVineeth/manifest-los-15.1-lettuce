@@ -59,7 +59,7 @@
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Contacts" />
 <remove-project name="LineageOS/android_packages_apps_Dialer" />
-<remove-project name="LineageOS/LineageOS/android_packages_apps_Camera2" />
+<remove-project name="LineageOS/android_packages_apps_Camera2" />
 
 <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
 <project path="packages/apps/F-DroidPrivilegedExtension"
