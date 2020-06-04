@@ -58,6 +58,7 @@
 <remove-project name="LineageOS/android_external_chromium-webview" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Contacts" />
+<remove-project name="LineageOS/android_packages_apps_Dialer" />
 
 
 <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
