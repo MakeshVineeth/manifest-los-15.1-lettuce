@@ -61,9 +61,7 @@
 <remove-project name="LineageOS/android_packages_apps_Dialer" />
 <remove-project name="LineageOS/android_packages_apps_Camera2" />
 <remove-project name="LineageOS/android_packages_apps_AppDrawer" />
-<remove-project name="LineageOS/android_packages_services_Car" />
 <remove-project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
-<remove-project name="LineageOS/android_packages_apps_Provision" />
 <remove-project name="LineageOS/android_packages_apps_HTMLViewer" />
 
 <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
