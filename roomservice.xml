@@ -60,6 +60,10 @@
 <remove-project name="LineageOS/android_packages_apps_Contacts" />
 <remove-project name="LineageOS/android_packages_apps_Dialer" />
 <remove-project name="LineageOS/android_packages_apps_Camera2" />
+<remove-project name="LineageOS/android_packages_apps_AppDrawer" />
+<remove-project name="LineageOS/android_packages_services_Car" />
+<remove-project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
+<remove-project name="LineageOS/android_packages_apps_Provision" />
 
 <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
 <project path="packages/apps/F-DroidPrivilegedExtension"
