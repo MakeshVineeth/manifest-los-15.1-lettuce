@@ -38,7 +38,6 @@
 <remove-project name="LineageOS/android_packages_apps_Terminal" />
 <remove-project name="LineageOS/android_packages_apps_Tag" />
 <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
-<remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
 <remove-project name="LineageOS/android_packages_providers_BookmarkProvider" />
 <remove-project name="LineageOS/android_packages_services_BuiltInPrintService" />
 <remove-project name="LineageOS/android_packages_apps_EmergencyInfo" />
