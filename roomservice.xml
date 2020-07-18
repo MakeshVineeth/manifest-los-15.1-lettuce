@@ -53,12 +53,10 @@
 <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
 <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
 <remove-project name="LineageOS/android_packages_apps_Messaging" />
-<remove-project name="LineageOS/android_packages_apps_Snap" />
 <remove-project name="LineageOS/android_external_chromium-webview" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Contacts" />
 <remove-project name="LineageOS/android_packages_apps_Dialer" />
-<remove-project name="LineageOS/android_packages_apps_Camera2" />
 <remove-project name="LineageOS/android_packages_apps_AppDrawer" />
 <remove-project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
 <remove-project name="LineageOS/android_packages_apps_HTMLViewer" />
